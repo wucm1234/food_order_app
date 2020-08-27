@@ -1,8 +1,8 @@
 import React from "react";
 
-import { Navbar } from "./Navbar";
-import Banner from "./Banner";
-import Category from "./Category";
+import { Navbar } from "./Navbar/Navbar";
+import Banner from "./Banner/Banner";
+import Category from "./Category/Category";
 
 function App() {
   return (
