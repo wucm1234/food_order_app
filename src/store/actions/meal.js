@@ -1,4 +1,4 @@
-import meals from "../apis/meal";
+import meals from "../../api/meal";
 import meal from "../reducers/meal";
 
 export const fetchMeals = () => async (dispatch) => {

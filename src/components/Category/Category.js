@@ -5,7 +5,7 @@ import lufeiSrc from "../../assets/images/lufei.jpg";
 import CateItem from "./CategoryItem";
 import { Grid} from "semantic-ui-react";
 import { connect } from "react-redux";
-import { fetchCategories } from "../../actions/meal";
+import { fetchCategories } from "../../store/actions";
 
 class Category extends React.Component {
   componentDidMount() {

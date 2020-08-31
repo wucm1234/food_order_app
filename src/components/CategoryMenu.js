@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { fetchMealsByCategory } from "../actions/meal";
+import { fetchMealsByCategory } from "../store/actions";
 import FoodList from "./Food/FoodList"
 
 class CategoryMenu extends React.Component {

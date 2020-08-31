@@ -2,7 +2,7 @@ import React from "react";
 import FoodItem from "./Food/FoodItem";
 import FoodList from "./Food/FoodList";
 import { connect } from "react-redux";
-import { fetchCategories } from "../actions/meal";
+import { fetchCategories } from "../store/actions";
 
 class Menu extends React.Component {
   componentDidMount() {
